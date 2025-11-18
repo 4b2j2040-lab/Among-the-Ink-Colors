@@ -1,0 +1,86 @@
+@charset "utf-8";
+#header {
+	width: 800px;
+	height: 130px;
+	background-image: url(images/header_bg.jpg);
+}
+#content {
+	width: 800px;
+	background-image: url(images/content_bg.jpg);
+	background-repeat: repeat-y;
+	float: left;
+}
+#footer {
+	background-image: url(images/footer_bg.jpg);
+	width: 800px;
+	height: 52px;
+	clear: left;
+	background-repeat: no-repeat;
+}
+#contentL {
+	width: 245px;
+	float: left;
+	
+}
+.headerLogo {
+    margin-top: 28px;
+    margin-left: 40px;
+}
+.headerCopy {
+    font-size: 11px;
+    float: none;
+    margin-top: 100px;
+}
+
+
+#contentR {
+	margin-left: 245px;
+}
+
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #767676;
+	background-image: url(images/cute_design_bg.png);
+	background-repeat: repeat-x;
+	margin-top: 28px;
+}
+#sidemenu {
+}
+#sidemenu {
+    background-image: url(images/menu_bg.jpg);
+    width: 180px;
+    height: 302px;
+    margin-left: 40px;
+    padding-left: 13px;
+}
+#listNew {
+    margin-left: 50px;
+    margin-right: 13px;
+}
+#news {
+}
+.email {
+    margin-top: 65px;
+    margin-left: 60px;
+    float: none;
+}
+.subtitle {
+    color: #EF4E08;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#listNew {
+    line-height: 1.5;
+}
+#contentL #listNew p {
+    border-top: 1px dotted #000000;
+    padding-right: 10px;
+}
+
+#conrentMain {
+    margin-top: 55px;
+    margin-left: 13px;
+    line-height: 2.5;
+}
